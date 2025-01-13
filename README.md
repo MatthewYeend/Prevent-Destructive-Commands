@@ -63,6 +63,21 @@ Ensure your `.env` file correctly specifies the application environment:
 `APP_ENV=production`
 The package determines the current environment using Laravel’s `app()->environment()` method.
 
+#### Testing
+You can simulate the package behavior by temporarily setting your application environment to `production`. To do this:
+1. Edit `.env`
+```dotenv
+APP_ENV=production
+```
+2. Attempt to run a destructive command, e.g.:
+```bash
+php artisan migrate:fresh
+```
+3. You should see an error message similar to the following:
+```kotlin
+This 'migrate:fresh' command is disabled in this environment for safety.
+```
+
 ---
 
 ## License
