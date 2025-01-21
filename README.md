@@ -78,6 +78,16 @@ php artisan migrate:fresh
 This 'migrate:fresh' command is disabled in this environment for safety.
 ```
 
+##### Testing through package
+1. Install dependencies
+```bash
+composer install
+```
+2. Run the test
+```bash
+composer test
+```
+
 ---
 
 ## License
