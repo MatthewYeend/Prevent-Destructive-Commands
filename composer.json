@@ -22,9 +22,18 @@
         "laravel/framework": "^9.0 | ^10.0 | ^11.0",
         "illuminate/support": "^9.0 | ^10.0 | ^11.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^7.0"
+    },
     "autoload": {
         "psr-4": {
             "Mattyeend\\PreventDestructiveCommands\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MattYeend\\PreventDestructiveCommands\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -33,5 +42,8 @@
                 "MattYeend\\PreventDestructiveCommands\\PreventDestructiveCommandsServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
