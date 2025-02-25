@@ -23,16 +23,16 @@ In non-production environments, these commands will function as usual.
 
 ## Compatibility
 
-This package is compatible with Laravel 9, 10, and 11.
+This package is compatible with Laravel 10, 11, and 12.
 
 ---
 
 ## Registration
-### Laravel 9 and 10
-For Laravel 9 and 10, the service provider is automatically registered via Laravel's package discovery. No additional steps are required.
+### Laravel  10
+For Laravel 10, the service provider is automatically registered via Laravel's package discovery. No additional steps are required.
 
-### Laravel 11
-Laravel 11 introduces stricter service provider registration. You need to manually register the service provider in the `config/app.php` file:
+### Laravel 11 and 12
+For Laravel 11 and 12, you need to manually register the service provider in the `config/app.php` file:
 1. Open the `config/app.php` file.
 2. Add the service provider to the providers array:
 ```bash
