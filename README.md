@@ -28,20 +28,8 @@ This package is compatible with Laravel 10, 11, and 12.
 ---
 
 ## Registration
-### Laravel  10
-For Laravel 10, the service provider is automatically registered via Laravel's package discovery. No additional steps are required.
-
-### Laravel 11 and 12
-For Laravel 11 and 12, you need to manually register the service provider in the `config/app.php` file:
-1. Open the `config/app.php` file.
-2. Add the service provider to the providers array:
-```bash
-'providers' => [
-    // Other Service Providers...
-
-    MattYeend\PreventDestructiveCommands\PreventDestructiveCommandsServiceProvider::class,
-],
-```
+### Laravel  10, 11, and 12
+For Laravel 10, 11, and 12, nothing needs to be done to register the package after install.
 
 ---
 
