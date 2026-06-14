@@ -23,13 +23,13 @@ In non-production environments, these commands will function as usual.
 
 ## Compatibility
 
-This package is compatible with Laravel 10, 11, and 12.
+This package is compatible with Laravel 10, 11, 12, and 13.
 
 ---
 
 ## Registration
-### Laravel  10, 11, and 12
-For Laravel 10, 11, and 12, nothing needs to be done to register the package after install.
+### Laravel  10, 11, 12, and 13
+For Laravel 10, 11, 12 and 13, nothing needs to be done to register the package after install.
 
 ---
 
